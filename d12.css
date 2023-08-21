@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Noto+Sans:wght@200&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+#a1, nav, footer, header, tit{
+    display: flex; 
+    justify-content: center;
+}
+header, nav, footer{   
+    background-color: rgb(0, 0, 0);
+    margin: -8px;
+}
+header, nav{
+    padding-top: 30px;
+}
+nav{
+    padding: 5px 0px 30px 0px;
+    font: 1.1em Verdana, Geneva, Tahoma, sans-serif;
+}
+tit{
+    font: small-caps 11vw 'Passion One', cursive;  
+}
+.pimg{
+    max-width: max-content;
+    background: rgba(0, 0, 0, 0.507);
+    text-shadow: 2px 1px 1px black;
+}
+#p2{
+    background: white url(img/background001.jpg) no-repeat fixed center;
+}
+#p5{
+    background: white url(img/background002.jpg) no-repeat fixed;
+}
+p{
+    line-height: 190%;
+    font: 3.5vw 'Sriracha', cursive;
+}
+div{
+    padding: 50px 0px 50px 30px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#a1, #a2{
+    font-weight: bold;
+}
+footer, nav, tit, .pimg, a:visited{
+    color: white;
+}
+footer{
+    padding: 10px;
+    font-size: 1.1em;
+}
